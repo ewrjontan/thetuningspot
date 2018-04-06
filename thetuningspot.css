@@ -1,0 +1,295 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  height: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+a:link {
+    color: #004225;
+}
+
+/* visited link */
+a:visited {
+    color: #004225;
+}
+
+a:hover {
+    color: #004225 !important;
+    text-decoration: none !important;
+}
+
+/* selected link */
+a:active {
+    color: #004225;
+}
+/*xxxxxxxxxxxxxxxx Begin Navigation CSS xxxxxxxxxxxxxxxxxxxxxxx*/
+
+#nav-container{
+  background: linear-gradient(to bottom right, #004225, white);
+  /*height: 50px;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+#mobile-nav-button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: none;
+  color: #ffff00;
+  cursor: pointer;
+}
+
+#nav-head-container{
+  color: #ffff00;
+  font-size: 2em;
+  background-color: none;
+}
+
+#nav-head-text{
+  background-color: none;
+  position: relative;
+  top: 5px;
+  color: yellow !important;
+}
+
+#mobile-nav-menu-container{
+  background-color: white;
+  color: #004225;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 2;
+  width: 50%;
+  min-width: 175px;
+  max-width: 225px;
+  font-size: 2rem;
+  display: none;
+  height: 100vh;
+}
+
+#mobile-nav-list{
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.MobileListItem{
+  cursor: pointer;
+  background-color: none;
+  padding-left: 10px;
+}
+
+.MenuAdditionalItems{
+  display: none;
+  font-size: 1.75rem;
+}
+
+/*xxxxxxxxxxxxxxxx End Navigation CSS xxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*#index-img-container-one{
+  background: url("https://paperandthread.com/g/car/car-alternator-auto-repair-car-wont-start-engine-problems.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  top: 50px;
+  z-index: -2;
+}*/
+
+
+/*test */
+.MainImageContainer{
+  background: url("https://paperandthread.com/g/car/car-alternator-auto-repair-car-wont-start-engine-problems.jpg");
+
+  /*background: url("http://paperandthread.com/g/aut/auto-repair-tampa-radiators-alternators-starters-fleet.jpg");*/
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  width: 100%;
+  height: 350px;
+  /*height: 100vh;*/
+  position: fixed;
+  top: 50px;
+  z-index: -2;
+}
+
+.MainPageHeader{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 5rem;
+  visibility: visible;
+}
+
+.PrimaryContainerHeader{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 2em;
+}
+
+.SecondaryContainerHeader{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.5em;
+}
+
+.PrimaryTextContainer{
+  background-color: #004225;
+  color: white;
+  position: relative;
+  top: 350px;
+  padding-bottom: 15px;
+}
+
+.PrimaryP{
+  padding: 10px 10% 10px 10%;
+  background-color: none;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SecondaryTextContainer{
+  position: relative;
+  top: 350px;
+  background-color: white; 
+}
+
+.PageGap{
+  width: 100%;
+  height: 300px;
+}
+
+.ParallaxContainer{
+  width: 100%;
+  height:300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*end test*/
+
+#index-parallax-image-container{
+  background-image: url("http://paperandthread.com/g/fin/find-local-and-reliable-mechanic-in-beldon-contact-too-easy-mobile.jpg");
+  top: 350px;
+  position: relative;
+}
+
+.IndexP{
+  padding: 10px 10% 10px 10%;
+  background-color: none;
+}
+
+#index-text-container-one{
+  background-color: #004225;
+  color: white;
+  position: relative;
+  top: 350px;
+  padding-bottom: 15px;
+}
+
+.ContainerOneP{
+  max-width: 1000px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.IndexBlockHeader{
+  font-weight: bold;
+}
+
+#index-text-container-two{
+  top: 350px;
+}
+
+.ContainerTwoBlockP{
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#index-text-container-three{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  top: 350px;
+}
+
+#index-container-three-p{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: none;
+  max-width: 1000px;
+  font-size: 1.5em;
+}
+/*xxxxxxxxxxxxxx end index xxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxx About xxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+#about-image-container{
+}
+
+#bay-list{
+  font-size: 1.25em;
+  max-width: 350px;
+  list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow;
+}
+
+#tool-link{
+  color: yellow;
+  text-decoration: underline
+}
+
+#about-text-container-two{
+  padding-bottom: 10px;
+}
+
+
+#about-parallax-image-container{
+  background-image: url("http://paperandthread.com/g/fin/find-local-and-reliable-mechanic-in-beldon-contact-too-easy-mobile.jpg");
+  position: relative;
+  top: 350px;
+}
+
+#about-container-three{
+  top: 350px;
+}
+
+
+/*xxxxxxxxxxxxxxxxxx Footer xxxxxxxxxxxxxxxxxxxxxxxxxx*/
+footer{
+  background: linear-gradient(to bottom right, #004225, white);
+  position: relative;
+  color: #ffff00;
+  top:350px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
